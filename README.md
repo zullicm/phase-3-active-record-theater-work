@@ -13,6 +13,7 @@ run `bundle install`
 ## Migrations 
 
 Create your migrations. 
+
 - `Auditions` should have an actor(string), location(string) and belong_to a role(integer)
 
 - `Roles` should only have a character_name
@@ -62,15 +63,18 @@ Create your migrations.
  </table>
   
 ## Relationship
+
 - What associations will this need?
 - (i.e. `has_many`, `has_many through`, and `belongs_to`)
 
 ## Audition
+
 - `Audition#role` returns an instance of role associated with this audition
 
 - `Audition#call_back` will change the the hired attribute to `true`
 
 ## Roles
+
 - `Role#auditions` returns all of the auditions associated with this role 
 
 - `Role#actors` returns an array of names from the actors associated with this role
