@@ -20,47 +20,19 @@ Create your migrations.
 
 #### `auditions` Table
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <tr>
-    <th>Column</th>
-    <th>Type</th>
-  </tr>
-  
-  <tr>
-    <td>actor</td>
-    <td>string</td>
-  </tr>
-  <tr>
-    <td>location</td>
-    <td>string</td>
-  </tr>
-  <tr>
-    <td>phone</td>
-    <td>integer</td>
-  </tr>
-  <tr>
-    <td>hired</td>
-    <td>boolean</td>
-  </tr>
-  <tr>
-    <td>role_id</td>
-    <td>integer</td>
-  </tr>
-</table>
+| Column | Type |
+| --- | --- |
+| actor | string |
+| location | string |
+| phone | integer |
+| hired | boolean |
+| role_id | integer |
 
 #### `roles` Table
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <tr>
-    <th>Column</th>
-    <th>Type</th>
-  </tr>
-  
-  <tr>
-    <td>character_name</td>
-    <td>string</td>
-  </tr>
- </table>
+| Column | Type |
+| --- | --- |
+| character_name | string |
   
 ## Relationship
 
