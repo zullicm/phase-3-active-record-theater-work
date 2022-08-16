@@ -1,4 +1,5 @@
 .DS_Store
-
+Gemfile.lock
+development.sqlite3
 *.db
 *.sqlite
